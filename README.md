@@ -4,8 +4,6 @@ A dual-ATmega32 security system: a **Master** safe unit that handles PIN authent
 
 Every peripheral (timers, USART, keypad, ADC, PWM, analog comparator, SPI) is configured directly through AVR registers. No delay library is used anywhere, including `_delay_ms()`. All timing comes from a single Timer0 millisecond tick.
 
-This project was built for the Microprocessors course (Dr. Raji, second semester of 1404) and simulated in Proteus.
-
 ## Features
 
 ### Master (safe unit)
